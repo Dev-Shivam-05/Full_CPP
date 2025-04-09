@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
 
-    int num_1,factorial = 1,li;
+    int num_1,factorial = 1;
 
     cout << "Enter A Number : ";
     cin >> num_1;
@@ -13,7 +13,7 @@ int main() {
     for (int i = 1; i <= num_1; i++)
     {
         factorial *= i;
-        cout << factorial << endl;
     }
+    cout << "The Factorial Of " << num_1 << " Is " << factorial << endl;
     return 0;
 }
